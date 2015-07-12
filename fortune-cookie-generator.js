@@ -4,8 +4,20 @@
 //
 //////////////////////////////////////////
 
-var generateFortuneCookie = function() {
-    // This is where your code for the Fortune Cookie generator goes.
+function generateFortuneCookie() {
+	
+	var randomFortune = Math.floor(Math.random()*fortunesList.length);
+	document.getElementById("fortune-cookie-text").innerHTML = (fortunesList[randomFortune]);
+	
+	var createNew = document.createElement("li");
+	createNew.innerHTML = (fortunesList[randomFortune]);
+	document.getElementById("previous-fortunes-container").appendChild(createNew);
+	
+
+}
+
+
+	// This is where your code for the Fortune Cookie generator goes.
     // You will use the fortunesList variable defined lower in this file
     // to supply your fortune cookies with text.
 
@@ -26,17 +38,16 @@ var generateFortuneCookie = function() {
     // `Math.random()` to accomplish this.) Use this data to update the
     // `innerText` of the `#fortune-cookie-text` element.
 
-}
 
 // The following data list is provided for you to use in your code.
-var fortunesList = [
-    "People are naturally attracted to you.",
-    "You learn from your mistakes... You will learn a lot today.",
-    "If you have something good in your life, don't let it go!",
-    "What ever you're goal is in life, embrace it visualize it, and for it will be yours.",
-    "Your shoes will make you happy today.",
-    "You cannot love life until you live the life you love.",
-    "Be on the lookout for coming events; They cast their shadows beforehand.",
+var fortunesList = Array(
+	"People are naturally attracted to you.",
+	"You learn from your mistakes... You will learn a lot today.",
+	"If you have something good in your life, don't let it go!",
+	"What ever you're goal is in life, embrace it visualize it, and for it will be yours.",
+	"Your shoes will make you happy today.",
+	"You cannot love life until you live the life you love.",
+	"Be on the lookout for coming events; They cast their shadows beforehand.",
     "Land is always on the mind of a flying bird.",
     "The man or woman you desire feels the same about you.",
     "Meeting adversity well is the source of your strength.",
@@ -80,5 +91,6 @@ var fortunesList = [
     "The man on the top of the mountain did not fall there.",
     "You will conquer obstacles to achieve success.",
     "Joys are often the shadows, cast by sorrows.",
-    "Fortune favors the brave."
-]
+    "Fortune favors the brave.");
+
+

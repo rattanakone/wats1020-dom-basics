@@ -3,11 +3,11 @@
 html {
     text-align: center;
     padding: 2em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
 }
 
 .fortune-cookie-saying-wrapper {
-    border: 1px solid #666;
+    border: 2px solid #666;
     padding: 1em;
     margin: 1em;
 }
