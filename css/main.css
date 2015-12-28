@@ -7,16 +7,17 @@ html {
 }
 
 body {
-	background-image: url("../img/IMG_4640.jpg");
+	background-image: url("../img/newspaper.jpg");
 }
 
 #fortune-cookie-text {
-	font-size: 11px;
+	font-size: 14px;
+	font-weight: 700;
 	font-family: 'Roboto', sans-serif;
 	color: red;
 	position: absolute;
-  	top: 440px;
-  	left: 530px;
+  	top: 400px;
+  	left: 515px;
   
 }
 
@@ -46,7 +47,7 @@ body {
 
 .fortune-cookie {
 	position: absolute;
-  	top: 200px;
+  	top: 160px;
   	left: 450px;
   	-moz-animation: shake 3s;
     -ms-animation: shake 3s;
@@ -60,13 +61,13 @@ body {
 	color: black;
 	font-size: 30px;
 	position: absolute;
-	top: 200px;
+	top: 125px;
 	left: 550px;
 }
 
 .egg-roll {
 	position: absolute;
-	top: -15px;
+	top: -35px;
 	left: 550px;
 }
 
