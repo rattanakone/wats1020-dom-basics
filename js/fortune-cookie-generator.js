@@ -53,7 +53,6 @@ var fortunesList = Array(
     "The greatest risk is not taking one.",
     "Adversity is the parent of virtue.",
     "Serious trouble will bypass you.",
-    "Now is the time to try something new.",
     "Wealth awaits you very soon.",
     "If you're happy, you're successful.",
     "You are very talented in many ways.",
