@@ -6,26 +6,112 @@
         <title>Fortune Cookie Generator</title>
         <meta name="description" content="This page generates fortune cookie sayings.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-        <link rel="stylesheet" href="main.css">
-        <script type="text/javascript" src="fortune-cookie-generator.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="css/main.css">
+
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link href="css/hover.css" rel="stylesheet" media="all">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+        <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
     </head>
+
     <body>
-        <h1>Fortune Cookie Generator</h1>
-        <p>Use this page to generate fortune cookie sayings.</p>
-        <div class="fortune-cookie-saying-wrapper">
-            <p id="fortune-cookie-text">Click the button to generate a saying.</p>
+        
+
+        
+       
+        
+        <div class="napkin-box">
+            <div class="napkin hvr-grow">
+                <img src="img/napkin.png">
+            </div>
         </div>
-        <!-- TODO: Make this button execute the `generateFortuneCookie()` function. -->
-        <button onclick="generateFortuneCookie()">
-            Make My Fortune!
-        </button>
-        <hr>
-        <h2>Previous Fortunes</h2>
-        <ul id="previous-fortunes-container">
-        <!-- TODO: Modify javascript so previously generated fortunes are listed here. -->
-			
-			
-        </ul>
+
+        <div class="chopstick-box">
+            <div class="chopstick hvr-grow">
+                <img src="img/chopsticks.png">
+            </div>
+        </div>
+
+
+        <div class="fried-rice-box">
+            <div class="fried-rice wow fadeIn hvr-grow">
+                <img src="img/friedrice.png">
+            </div>
+        </div>
+
+        <div class="soysauce-box">
+            <div class="soysauce hvr-grow">
+                <img src="img/soysauce.png">
+            </div>
+        </div>
+
+        <div class="kung-pao-box">
+            <div class="kung-pao wow fadeIn hvr-grow">
+                <img src="img/kungpaochicken.png">
+            </div>
+        </div>
+
+         
+
+        <div class="egg-roll-box">
+            <div class="egg-roll hvr-grow">
+                <img src="img/eggroll.png">
+            </div>
+        </div>
+
+        <div class="sesame-chicken-box">
+            <div class="sesame-chicken wow fadeIn hvr-grow">
+                <img src="img/sesamechicken.png">
+            </div>
+        </div>
+
+
+         <div class="fortune-box">
+            <div class="fortune-cookie">
+                <img onclick="generateFortuneCookie()" src="img/fortune.png">
+            </div>
+        </div>
+
+
+         <div class="fortune-saying-box">
+            <div class="fortune-cookie-saying-wrapper">
+                <div id="fortune-cookie-text"></div>
+            </div>
+        </div>
+
+
+         <div class="napking-writing">
+            <div class="hand-writing hvr-grow">
+               <p>click on the <br>fortune cookie</p>
+            </div>
+        </div>
+
+
+        <div class="chow-mein-box">
+            <div class="chow-mein wow fadeIn hvr-grow">
+                <img src="img/chowmein.png">
+            </div>
+        </div>
+
+        
+
+
+        
+
+
+        <script src="js/bootstrap.min.js"></script>
+        
+
+        <script src="js/wow.min.js"></script>        
+
+      
+        <script src="js/fortune-cookie-generator.js"></script>
     </body>
 </html>

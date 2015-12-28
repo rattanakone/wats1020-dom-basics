@@ -1,0 +1,90 @@
+/* Fortune Cookie Generator Styles */
+
+html {
+    text-align: center;
+    padding: 2em;
+    font-family: Helvetica;
+}
+
+body {
+	background-image: url("../img/IMG_4640.jpg");
+}
+
+#fortune-cookie-text {
+	font-size: 11px;
+	font-family: 'Roboto', sans-serif;
+	color: red;
+	position: absolute;
+  	top: 440px;
+  	left: 530px;
+  
+}
+
+.napkin {
+	position: absolute;
+  	top: 20px;
+  	left: 450px;
+}
+
+.fried-rice {
+	position: absolute;
+	top: -150px;
+	left: -130px;
+}
+
+.kung-pao {
+	position: absolute;
+	top: 500px;
+	left: 30px;
+}
+
+.sesame-chicken {
+	position: absolute;
+	top: -160px;
+	right: -150px;
+}
+
+.fortune-cookie {
+	position: absolute;
+  	top: 200px;
+  	left: 450px;
+  	-moz-animation: shake 3s;
+    -ms-animation: shake 3s;
+    -o-animation: shake 3s;
+	-webkit-animation: shake 3s;
+    animation: shake 3s;
+}
+
+.hand-writing {
+	font-family: 'Indie Flower', cursive;
+	color: black;
+	font-size: 30px;
+	position: absolute;
+	top: 200px;
+	left: 550px;
+}
+
+.egg-roll {
+	position: absolute;
+	top: -15px;
+	left: 550px;
+}
+
+.chow-mein {
+	position: absolute;
+	top: 400px;
+	left: 850px;
+
+}
+
+.chopstick {
+	position: absolute;
+	top: 450px;
+	left: -450px;
+}
+
+.soysauce {
+	position: absolute;
+	top: 550px;
+	left: 690px;
+}
