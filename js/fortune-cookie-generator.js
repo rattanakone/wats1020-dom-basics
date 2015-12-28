@@ -63,7 +63,7 @@ var fortunesList = Array(
     "Keep your eye out for someone special.",
     "You are very talented in many ways.",
     "Everyone agrees. You are the best.",
-    "Happinees comes from a good life.",
+    "Happiness comes from a good life.",
     "It's better to be alone sometimes.",
     "Don't pursue happiness - create it.",
     "Let the deeds speak.",
