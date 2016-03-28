@@ -17,38 +17,37 @@ body {
 	color: red;
 	position: absolute;
   	top: 400px;
-  	left: 515px;
-  
+  	left: 40px;
 }
 
 .napkin {
 	position: absolute;
   	top: 40px;
-  	left: 450px;
+  	left: -30px;
 }
 
 .fried-rice {
 	position: absolute;
-	top: -150px;
-	left: -130px;
+	top: 480px;
+	left: -100px;
 }
 
 .kung-pao {
 	position: absolute;
-	top: 500px;
-	left: 30px;
+	top: 400px;
+	left: 300px;
 }
 
 .sesame-chicken {
 	position: absolute;
-	top: -300px;
-	left: 800px;
+	top: 900px;
+	left: -100px;
 }
 
 .fortune-cookie {
 	position: absolute;
   	top: 160px;
-  	left: 450px;
+  	left: -20px;
   	-moz-animation: shake 3s;
     -ms-animation: shake 3s;
     -o-animation: shake 3s;
@@ -62,30 +61,111 @@ body {
 	font-size: 30px;
 	position: absolute;
 	top: 120px;
-	left: 550px;
+	left: 50px;
 }
 
 .egg-roll {
 	position: absolute;
 	top: -35px;
-	left: 550px;
+	left: 100px;
 }
 
 .chow-mein {
 	position: absolute;
-	top: 375px;
-	left: 800px;
-
+	top: 700px;
+	left: 300px;
 }
 
 .chopstick {
 	position: absolute;
-	top: 450px;
-	left: -450px;
+	top: 420px;
+	left: -650px;
 }
 
 .soysauce {
 	position: absolute;
-	top: 550px;
-	left: 690px;
+	top: 50px;
+	left: 490px;
+}
+
+@media(min-width:900px) {
+	#fortune-cookie-text {
+		font-size: 14px;
+		font-weight: 700;
+		font-family: 'Roboto', sans-serif;
+		color: red;
+		position: absolute;
+  		top: 400px;
+  		left: 515px;
+	}
+
+	.napkin {
+		position: absolute;
+  		top: 40px;
+  		left: 450px;
+	}
+
+	.fried-rice {
+		position: absolute;
+		top: -150px;
+		left: -130px;
+	}
+
+	.kung-pao {
+		position: absolute;
+		top: 500px;
+		left: 30px;
+	}
+
+	.sesame-chicken {
+		position: absolute;
+	    top: -300px;
+	    left: 800px;
+	}
+
+	.fortune-cookie {
+		position: absolute;
+  		top: 160px;
+  		left: 450px;
+  	    -moz-animation: shake 3s;
+        -ms-animation: shake 3s;
+        -o-animation: shake 3s;
+	    -webkit-animation: shake 3s;
+    	animation: shake 3s;
+	}
+
+	.hand-writing {
+		font-family: 'Indie Flower', cursive;
+		color: black;
+		font-size: 30px;
+		position: absolute;
+		top: 120px;
+		left: 550px;
+	}
+
+	.egg-roll {
+		position: absolute;
+		top: -35px;
+		left: 550px;
+	}
+
+	.chow-mein {
+		position: absolute;
+		top: 375px;
+		left: 800px;
+
+	}
+
+	.chopstick {
+		position: absolute;
+		top: 450px;
+		left: -450px;
+	}
+
+	.soysauce {
+		position: absolute;
+		top: 550px;
+		left: 690px;
+	}
+
 }
